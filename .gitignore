@@ -1,0 +1,110 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+virtualenv/
+.venv/
+.env/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.ipynb_checkpoints
+.history/
+*.sublime-workspace
+*.sublime-project
+
+# Database files
+*.sqlite3
+*.db
+*.sql
+*.psql
+*.pgsql
+*.backup
+postgres_data/
+
+# Log files
+*.log
+logs/
+log/
+scraper.log
+db_init.log
+
+# Docker
+docker-compose.override.yml
+
+# Generated files
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.xml
+!package.json
+!package-lock.json
+
+# Compiled code and binaries
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.pyc
+*.pyo
+
+# OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+temp/
+tmp/
+
+# Other
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+
+out.txt
