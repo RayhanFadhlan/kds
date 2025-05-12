@@ -8,7 +8,7 @@ up-backend:
 
 up-scraper:
 	docker-compose --env-file .env --profile scraper-only up -d
-
+a
 up:
 	docker-compose --env-file .env up
 
