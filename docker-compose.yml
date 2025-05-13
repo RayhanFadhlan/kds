@@ -10,7 +10,7 @@ services:
       - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-password}
       - POSTGRES_DB=${POSTGRES_DB:-bacterial_classification}
     ports:
-      - "${POSTGRES_HOST_PORT:-5437}:5432"
+      - ":5432"
     healthcheck:
       test:
         [
@@ -37,7 +37,7 @@ services:
       - PROJECT_NAME=Bacteria Classification API
       - CORS_ORIGINS=http://localhost:3000,http://localhost:8080
     ports:
-      - "8000:8000"
+      - "8000"
     depends_on:
       postgres:
         condition: service_healthy
